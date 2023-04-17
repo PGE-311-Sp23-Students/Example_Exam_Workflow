@@ -7,8 +7,8 @@ Created on Wed Oct 13 14:08:08 2021
 
 import numpy as np
 import sys
-# np.random.seed(0)
-
+np.random.seed(0)
+print(f"Your username is {sys.argv[-1]}")
 f = open("example_exam.ipynb", 'r')
 
 a = f.read()
